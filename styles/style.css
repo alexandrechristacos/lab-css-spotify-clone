@@ -1,3 +1,164 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+    padding: 2px;
+    height: 70px;
+
+}
+.nav-bar ul {
+    list-style: none;
+    align-content: center;
+    align-items: center;
+   
+}
+.nav-bar li {
+    display: inline;  /* Place les li en ligne */
+    padding-left: 10px;
+    margin-right: 10px; /* Met un espace de par et d'autre de l'élément */
+    margin-top: 0;
+    font-weight: lighter;
+  }
+.logo {
+    width: 100px;
+    padding-right: 800px;
+    height: 50px;
+    padding-top: 10px;
+}
+.align-nav-bar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: center;
+}
+#headertext {
+    color: white;
+    font-size: 30px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    padding-top: 250px;
+}
+#headertext p {
+    width: 700px;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+.header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.section2 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+    padding-bottom: 50px;
+}
+.section2 img {
+    width: 110px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    width: 210px;
+    margin: 0cm;
+    padding: 10px;
+}
+.container h4 {
+    color: #00B172;
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+.container p {
+    font-weight: lighter;
+}
+
+h2 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    padding: 40px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: 2px;
+}
+.section3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+        background-color: #00B172;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 0cm;
+        padding-right: 50px;
+}
+
+.kanyealbum {
+    width: 300px;
+}
+.iconwhite {
+    width: 100px;
+}
+
+.textKanye {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    width: 275px;
+    color: white;
+}
+
+.section3 h3 {
+    line-height: 2.5px;
+    font-size: 1.9em;
+    color: white;
+    text-decoration: underline;
+    text-decoration-offset: 8px;  
+}
+
+.textKanye h5 {
+    font-size: 1.4em;
+}
+
+.textKanye p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+
 /*
 Colors:
 

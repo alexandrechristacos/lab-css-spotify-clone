@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+}
+.nav-bar {
+    display: flex;
+    background-color: red;
+    }
+    .nav-bar ul {
+        display: flex;
+    }
+    
+    .nav-bar img {
+        width: 40px;
+    }
+    img {
+        width: 0cm;
+    }
